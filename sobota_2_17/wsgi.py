@@ -24,7 +24,7 @@ import sys
 #
 ## assuming your django settings file is at '/home/nazwauzytkownika/mysite/mysite/settings.py'
 ## and your manage.py is is at '/home/nazwauzytkownika/mysite/manage.py'
-path = '/home/coolph0ne/pythonStudy'
+path = '/home/coolph0ne/pythonStudy/manage.py'
 if path not in sys.path:
     sys.path.append(0, path)
 
