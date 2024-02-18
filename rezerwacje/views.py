@@ -44,7 +44,6 @@ class NamiotListView(ListView):
 class ReservedListView(ListView):
     model = Rezerwacja
     template_name = "reserved.html"
-    context_object_name = "object_list"
 
 
 class NamiotDetailView(DetailView):

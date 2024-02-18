@@ -13,6 +13,7 @@
     <tr>
         <th>ID</th>
         <th></th>
+        <th></th>
     </tr>
         {% for rezerwacja in object_list %}
             <!-- Display objects -->
@@ -22,6 +23,12 @@
                     <form action="{% url 'unreserve' rezerwacja.id %}">
                         {% csrf_token %}
                         <input type="submit" value="unreserve">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        {% csrf_token %}
+                        <input type="button">
                     </form>
                 </td>
             </tr>
